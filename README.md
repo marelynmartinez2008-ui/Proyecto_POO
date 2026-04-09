@@ -34,6 +34,7 @@ Instalación y Configuración
 <img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-53-55.png?raw=true" width="600" alt="Catalogo de perritos">
 <img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-59-34.png?raw=true" width="600" alt="Catalogo de perritos">
 <img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-59-44.png?raw=true" width="600" alt="Catalogo de perritos">
+<img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-55-47.png?raw=true width="600" alt="Catalogo de perritos">
 <img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-54-30.png?raw=true" width="600" alt="Catalogo de perritos">
 <img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-55-09.png?raw=true" width="600" alt="Catalogo de perritos">
 <img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-55-19.png?raw=true" width="600" alt="Catalogo de perritos">
