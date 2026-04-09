@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finales Felices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #f0f2f5; padding: 40px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #2c3e50; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th { background-color: #27ae60; color: white; padding: 12px; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #ddd; }
+        tr:hover { background-color: #f1f1f1; }
+        .btn-back { display: inline-block; margin-top: 20px; text-decoration: none; color: #e67e22; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Historial de Adopciones</h1>
+        <table>
+            <tr>
+                <th>Adoptante</th>
+                <th>Perrito</th>
+                <th>Fecha</th>
+            </tr>
+           {% for registro in adopciones %}
+<tr>
+    <td>{{ registro['adopter_name'] }} {{ registro['adopter_lastname'] }}</td>
+    <td>{{ registro['dog_name'] }}</td>
+    <td>{{ registro['date'] }}</td>
+</tr>
+{% endfor %}
+        </table>
+        <br>
+        <a href="/" class="btn-back">Volver al catálogo</a>
+    </div>
+</body>
+</html>

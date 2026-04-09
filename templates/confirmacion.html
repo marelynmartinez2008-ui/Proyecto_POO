@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmar Adopción</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Estás a punto de adoptar a {{ dog.name }}</h1>
+        <p class="dog-info">{{ dog.name }} es un {{ dog.breed }} de {{ dog.age }} años.</p>
+        
+        <hr> <h3>Tus Datos (Adoptante)</h3>
+        
+        <form action="/confirmar_adopcion" method="POST">
+            <input type="hidden" name="dog_id" value="{{ dog.id }}">
+            
+            <label>Nombre:</label>
+            <input type="text" name="name" required>
+            
+            <label>Apellido:</label>
+            <input type="text" name="lastname" required>
+            
+            <label>Cédula/ID:</label>
+            <input type="text" name="id_card" required>
+            
+            <label>Dirección:</label>
+            <input type="text" name="address" required>
+            
+            <input type="submit" value="Confirmar Adopción">
+        </form>
+    </div>
+</body>
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+    .form-container {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        width: 100%;
+        max-width: 450px;
+    }
+    h1 { color: #2c3e50; font-size: 24px; text-align: center; }
+    label { display: block; margin-bottom: 8px; font-weight: bold; color: #34495e; }
+    input[type="text"] {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #dcdde1;
+        border-radius: 6px;
+        box-sizing: border-box; /* Importante para que no se salga del cuadro */
+    }
+    input[type="submit"] {
+        width: 100%;
+        background-color: #e67e22;
+        color: white;
+        border: none;
+        padding: 15px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    input[type="submit"]:hover {
+        background-color: #d35400;
+    }
+</style>
+</html>
