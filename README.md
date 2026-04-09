@@ -31,4 +31,4 @@ Instalación y Configuración
    ```bash
    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
    cd Centro_Adopcion
-<img src="pega-aqui-el-enlace-de-la-imagen" width="600" alt="Catalogo de perritos">
+<img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-53-55.png?raw=true" width="600" alt="Catalogo de perritos">
