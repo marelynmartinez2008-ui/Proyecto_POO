@@ -32,3 +32,4 @@ Instalación y Configuración
    git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
    cd Centro_Adopcion
 <img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-53-55.png?raw=true" width="600" alt="Catalogo de perritos">
+<img src="https://github.com/marelynmartinez2008-ui/Proyecto_POO/blob/main/Captura%20desde%202026-04-09%2007-55-09.png?raw=true" width="600" alt="Catalogo de perritos">
